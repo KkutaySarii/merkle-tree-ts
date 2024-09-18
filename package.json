@@ -1,0 +1,31 @@
+{
+  "name": "merkle-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test-all": "jest",
+    "test": "jest -- --findRelatedTests test/$FILE.test.ts"
+  },
+  "keywords": [
+    "Merkle Tree",
+    "Merkle Root",
+    "Root Hash",
+    "Bitcoin",
+    "Blockchain",
+    "Datastructures",
+    "Algorithms"
+  ],
+  "author": "Kutay Sarı",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/jest": "^29.5.13",
+    "crypto": "^1.0.1",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
